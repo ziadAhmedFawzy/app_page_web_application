@@ -1,0 +1,63 @@
+@media screen and (max-width: 450px) and (min-width: 300px) {
+  .application {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .application .app {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 0 20px 0;
+  }
+
+  .application a {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 300px) {
+  .application {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .application .app {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .application a {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+
+  .application h2 {
+    font-size: 12px;
+    position: relative;
+    bottom: 17px;
+  }
+
+  .application img {
+    width: 50px;
+  }
+
+  header h1 img {
+    width: 25px;
+  }
+
+  .return-back {
+    font-size: 20px;
+  }
+
+  .description p {
+    font-size: 10px;
+  }
+}
