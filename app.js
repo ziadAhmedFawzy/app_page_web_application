@@ -3,7 +3,7 @@
 let $return_back = document.getElementById("return_back");
 
 $return_back.addEventListener("click" , function() {
-    location.href = '../index.html';
+    location.href = 'https://ziadahmedfawzy.github.io/home_page_web_application/';
 });
 
 // get search
