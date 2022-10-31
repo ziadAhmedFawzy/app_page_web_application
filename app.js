@@ -46,6 +46,6 @@ nameApp()
 
 let download = document.getElementById("download");
 
-download.addEventListener("click" , function() {
-    location.href = '../download_animation.html';
-})
+// download.addEventListener("click" , function() {
+//     location.href = '../download_animation.html';
+// })
